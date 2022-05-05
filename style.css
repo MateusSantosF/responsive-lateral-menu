@@ -1,0 +1,54 @@
+
+      *{
+        margin: 0 ;
+        padding: 0 ;
+        box-sizing: content-box;
+
+      }
+      .container{
+        display: flex;
+        justify-content: center;
+      }
+      main{
+        display: flex;
+        background-color: red;
+        width: 60vw ;
+        height: 100vh;
+        justify-content: space-between;
+        align-items: center;
+
+      }
+
+      aside{
+        width:20%;
+        height: 100vh;
+      }
+
+      aside.aside1{
+        background-color: green;
+      }
+
+      aside.aside2{
+        background-color: yellow;
+      }
+
+      main .button{
+          padding: 5px;
+          background-color: black;
+          color:white;
+
+      }
+
+
+      .toggleLeft{
+          width: 0%;
+          height: 0%;
+      }
+      .toggleRight{
+          width: 0%;
+          height: 0%;
+      }
+
+      .toggleMain{
+        width: 80vw;
+      }
